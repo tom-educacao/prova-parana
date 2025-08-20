@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSTPQp8e6McIkkm6arVD5tDjavL_cpIuo",
-  authDomain: "prova-parana.firebaseapp.com",
-  projectId: "prova-parana",
-  storageBucket: "prova-parana.firebasestorage.app",
-  messagingSenderId: "645022125554",
-  appId: "1:645022125554:web:2bf8ee897dd786cdb32f6b"
+  apiKey: "AIzaSyASdkqsubT8_sAgYaphaIiFaUnRZ-NLbok",
+  authDomain: "prova-parana-tom.firebaseapp.com",
+  projectId: "prova-parana-tom",
+  storageBucket: "prova-parana-tom.firebasestorage.app",
+  messagingSenderId: "359949334229",
+  appId: "1:359949334229:web:5c54a6fcf044018950545c"
 };
 
 const app = initializeApp(firebaseConfig);
